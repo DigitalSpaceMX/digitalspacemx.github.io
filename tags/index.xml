@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Agencia de Marketing y Software en México</title>
-    <link>http://example.org/tags/</link>
+    <link>https://digitalspacemx.github.io/tags/</link>
     <description>Recent content in Tags on Agencia de Marketing y Software en México</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://digitalspacemx.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

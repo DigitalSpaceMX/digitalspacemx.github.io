@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://digitalspacemx.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://digitalspacemx.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/aplicaciones-web-y-api/</loc>
+    <loc>https://digitalspacemx.github.io/aplicaciones-web-y-api/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://digitalspacemx.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
