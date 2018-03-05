@@ -9157,9 +9157,9 @@ var Customers = function (_React$Component) {
     key: 'componentDidUpdate',
     value: function componentDidUpdate() {
       if (this.state.visible == true) {
-        _gsap.TweenMax.staggerTo(".customer", 2, { scale: 1, opacity: 1, delay: 0.5, ease: Elastic.easeOut, force3D: true }, 0.2);
+        _gsap.TweenMax.staggerTo(".customer", 2, { scale: 1, opacity: 1, delay: 0.5, ease: Elastic.easeOut.config(1, 0.5), force3D: true }, 0.2);
       } else {
-        _gsap.TweenMax.set(".customer", { scale: 0.9, opacity: 0 });
+        _gsap.TweenMax.set(".customer", { scale: 0.7, opacity: 0 });
       }
     }
   }, {
@@ -28467,11 +28467,7 @@ var Customer = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         { className: 'customer' },
-        _react2.default.createElement(
-          'div',
-          { className: 'customer-info' },
-          _react2.default.createElement('img', { src: this.props.logo, alt: this.props.name + "_logo", className: 'customer_logo' })
-        )
+        _react2.default.createElement('img', { src: this.props.logo, alt: this.props.name + "_logo", className: 'customer_logo' })
       );
     }
   }]);
@@ -28495,33 +28491,33 @@ Object.defineProperty(exports, "__esModule", {
 });
 var data = [{ id: 1,
   name: "GLOSS Nail Bar",
-  logo: "../clients/gloss-logo.png"
+  logo: "../clients/gloss.jpg"
 }, { id: 2,
   name: "Waffle Boutique",
-  logo: "../clients/bwb-logo.png"
+  logo: "../clients/waffle.jpg"
 }, { id: 3,
   name: "La Parrilla",
-  logo: "../clients/parrilla-logo.png"
+  logo: "../clients/laparrilla.jpg"
 }, {
   id: 4,
   name: "GLOSS Nail Bar",
-  logo: "../clients/gloss-logo.png"
+  logo: "../clients/gloss.jpg"
 }, {
   id: 5,
   name: "Waffle Boutique",
-  logo: "../clients/bwb-logo.png"
+  logo: "../clients/waffle.jpg"
 }, {
   id: 6,
   name: "La Parrilla",
-  logo: "../clients/parrilla-logo.png"
+  logo: "../clients/laparrilla.jpg"
 }, {
   id: 7,
   name: "Waffle Boutique",
-  logo: "../clients/bwb-logo.png"
+  logo: "../clients/waffle.jpg"
 }, {
   id: 8,
   name: "La Parrilla",
-  logo: "../clients/parrilla-logo.png"
+  logo: "../clients/laparrilla.jpg"
 }];
 
 exports.default = data;
